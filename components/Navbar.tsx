@@ -47,7 +47,7 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 glass border-b border-white/10">
-      <div className="max-w-7xl mx-auto px-6 py-4 sm:py-5 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
         <Link href="/" className="flex items-center gap-3">
           <Image
             src="/logo.jpeg"
@@ -102,7 +102,7 @@ export default function Navbar() {
         variants={menuVariants}
         initial="closed"
         animate={open ? 'open' : 'closed'}
-        className="fixed inset-0 h-fit bg-zinc-950 z-55 md:hidden py-10"
+        className="fixed inset-0 h-screen bg-zinc-950 z-55 md:hidden py-10"
       >
         <motion.div className="h-full flex flex-col items-center justify-center gap-6">
           {navLinks.map((item) => (

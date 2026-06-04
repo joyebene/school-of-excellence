@@ -10,7 +10,7 @@ import FloatingShapes from "../FloatingShapes";
 
 export default function ConnectFounder() {
   return (
-    <section className="relative py-16 bg-slate-50 overflow-hidden">
+    <section className="relative py-16 bg-slate-50 overflow-hidden text-gray-900">
       <div className="relative z-10 max-w-4xl mx-auto text-center px-6">
 
         <h2 className="text-4xl sm:text-5xl font-bold mb-8">

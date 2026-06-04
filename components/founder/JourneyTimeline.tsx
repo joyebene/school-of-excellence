@@ -41,7 +41,7 @@ export default function JourneyTimeline() {
   });
 
   return (
-    <section className="py-24 sm:py-32 bg-slate-50">
+    <section className="py-24 sm:py-32 bg-slate-50 text-gray-900">
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-center text-4xl sm:text-5xl font-bold mb-20">
           Journey of Impact

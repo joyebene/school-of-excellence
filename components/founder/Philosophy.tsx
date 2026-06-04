@@ -57,7 +57,7 @@ const pillarItemVariants: Variants = {
 
 export default function Philosophy() {
   return (
-    <section className="relative py-32 overflow-hidden bg-white">
+    <section className="relative py-32 overflow-hidden bg-white text-gray-900">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,#2563eb10,transparent_40%)]" />
 
       <div className="max-w-6xl mx-auto px-6 relative z-10">

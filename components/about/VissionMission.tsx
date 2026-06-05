@@ -43,7 +43,7 @@ export default function VisionMission() {
                 <Target className="w-28 h-28 text-blue-600/10" strokeWidth={1.5} />
             </div>
 
-            <h3 className="text-2xl sm:text-3xl font-semibold mb-4 mt-8">Our Vision</h3>
+            <h3 className="text-2xl sm:text-3xl font-semibold mb-4 mt-8 text-gray-900">Our Vision</h3>
             <p className="sm:text-lg text-zinc-600 leading-relaxed">
               To nurture excellence in students and young professionals through
               learning, innovation, and intentional personal development.
@@ -59,7 +59,7 @@ export default function VisionMission() {
            <div className="absolute -top-6 -right-6">
                 <Rocket className="w-28 h-28 text-purple-500/10" strokeWidth={1.5} />
               </div>
-              <h3 className="text-2xl sm:text-3xl font-semibold mb-4 mt-8">Our Mission</h3>
+              <h3 className="text-2xl sm:text-3xl font-semibold mb-4 mt-8 text-gray-900">Our Mission</h3>
               <p className="sm:text-lg text-zinc-600 leading-relaxed">
                 To equip students with transformative learning, practical skills, and mentorship
                 to excel, innovate, and lead with purpose.

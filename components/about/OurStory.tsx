@@ -16,7 +16,7 @@ export default function OurStory() {
             OUR STORY
           </span>
 
-          <h2 className="text-4xl sm:text-5xl font-bold mt-4 mb-8">
+          <h2 className="text-4xl sm:text-5xl font-bold mt-4 mb-8 text-gray-900">
             Why School of Excellence Exists
           </h2>
 

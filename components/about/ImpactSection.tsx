@@ -25,7 +25,7 @@ export default function ImpactSection() {
                     <span className="text-blue-600 uppercase tracking-widest text-sm sm:text-base">
                         Our Impact
                     </span>
-                    <h2 className="text-4xl sm:text-5xl font-bold mt-4">
+                    <h2 className="text-4xl sm:text-5xl font-bold mt-4 text-gray-900">
                         The Impact We Aim To Create
                     </h2>
                 </div>

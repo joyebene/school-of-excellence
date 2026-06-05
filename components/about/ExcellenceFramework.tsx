@@ -64,7 +64,7 @@ export default function ExcellenceFramework() {
             Excellence Framework
           </span>
 
-          <h2 className="text-4xl sm:text-5xl font-bold mt-4">
+          <h2 className="text-4xl sm:text-5xl font-bold mt-4 text-gray-900">
             How We Transform Potential Into Excellence
           </h2>
         </div>
@@ -86,7 +86,7 @@ export default function ExcellenceFramework() {
               >
                 <div className="flex-1">
                   <div className="bg-white rounded-3xl p-8 shadow-xl border border-gray-300">
-                    <h3 className="text-2xl sm:text-3xl font-bold mb-3">{step.title}</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold mb-3 text-gray-900">{step.title}</h3>
 
                     <p className="text-zinc-600">{step.desc}</p>
                   </div>

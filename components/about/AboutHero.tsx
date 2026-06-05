@@ -35,46 +35,46 @@ export default function AboutHero() {
         </motion.div>
 
         <div className="grid grid-cols-2 gap-5">
-          <div className="relative h-60 sm:h-70 rounded-3xl overflow-hidden">
-            <Image
-              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&auto=format&fit=crop"
-              alt="Team working"
-              fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover"
-            />
-          </div>
+  <div className="relative h-60 sm:h-70 rounded-3xl overflow-hidden">
+    <Image
+      src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&auto=format&fit=crop"
+      alt="Team working"
+      fill
+      sizes="(max-width: 768px) 100vw, 50vw"
+      className="object-cover"
+    />
+  </div>
 
-          <div className="relative h-48 sm:h-56 mt-20 rounded-3xl overflow-hidden">
-            <Image
-              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop"
-              alt="Laptop and coffee"
-              fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover"
-            />
-          </div>
+  <div className="relative h-48 sm:h-56 mt-20 rounded-3xl overflow-hidden">
+    <Image
+      src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop"
+      alt="Laptop and coffee"
+      fill
+      sizes="(max-width: 768px) 100vw, 50vw"
+      className="object-cover"
+    />
+  </div>
 
-          <div className="relative h-48 sm:h-56 rounded-3xl overflow-hidden">
-            <Image
-              src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&auto=format&fit=crop"
-              alt="Conference room"
-              fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover"
-            />
-          </div>
+  <div className="relative h-48 sm:h-56 rounded-3xl overflow-hidden">
+    <Image
+      src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&auto=format&fit=crop"
+      alt="Conference room"
+      fill
+      sizes="(max-width: 768px) 100vw, 50vw"
+      className="object-cover"
+    />
+  </div>
 
-          <div className="relative h-60 sm:h-70 rounded-3xl overflow-hidden mb-5">
-            <Image
-              src="https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&auto=format&fit=crop"
-              alt="Office workspace"
-              fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover"
-            />
-          </div>
-        </div>
+  <div className="relative h-60 sm:h-70 rounded-3xl overflow-hidden mb-5">
+    <Image
+      src="https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&auto=format&fit=crop"
+      alt="Office workspace"
+      fill
+      sizes="(max-width: 768px) 100vw, 50vw"
+      className="object-cover"
+    />
+  </div>
+</div>
       </div>
     </section>
   );

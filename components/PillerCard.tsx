@@ -62,8 +62,9 @@ export default function PillarCard({ pillar, i }: PillarCardProps) {
         }}
         className="group bg-white/5 border border-white/10 rounded-3xl p-8 sm:p-10 h-full transition-transform duration-500 ease-out hover:border-blue-500/30"
       >
-        <div className={`w-16 h-16 rounded-2xl bg-linear-to-br ${colorClasses[pillar.color]} to-purple-500 flex items-center justify-center mb-8 group-hover:scale-110 transition-transform`}>
-          <pillar.icon className="w-9 h-9" />
+        <div className={`relative w-16 h-16 rounded-2xl bg-gray-800 shadow-inner-lg flex items-center justify-center mb-8 group-hover:scale-110 transition-transform`}>
+          <div className={`absolute inset-0 bg-linear-to-br ${colorClasses[pillar.color]} to-purple-500 opacity-20 rounded-2xl`}></div>
+          <pillar.icon className="w-9 h-9 text-white" />
         </div>
         <h3 className="text-3xl font-semibold mb-4">{pillar.title}</h3>
         <p className="text-zinc-300 leading-relaxed">{pillar.desc}</p>

@@ -178,7 +178,7 @@ export default function Contact() {
             </SpotlightCard>
 
             {/* Social / Community */}
-            <div className="text-center text-sm text-zinc-500 pt-6">
+            <div className="text-center text-sm text-zinc-500 py-6">
               Follow us on social media for updates, success stories, and community events.
             </div>
           </div>
@@ -187,7 +187,7 @@ export default function Contact() {
 
       {/* FINAL CTA */}
       <section id="join"
-        className="py-32 bg-black/80 text-white relative overflow-hidden flex items-center justify-center">
+        className="py-24 bg-black/80 text-white relative overflow-hidden flex items-center justify-center">
         <FloatingLogos />
         <FloatingShapes />
         <div

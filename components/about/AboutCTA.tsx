@@ -25,7 +25,7 @@ export default function AboutCTA() {
         </p>
         <MagneticButton>
           <Link
-            href="/programmes"
+            href="/contact"
             className="inline-block bg-white text-black px-12 py-4 rounded-2xl sm:text-lg font-semibold hover:bg-amber-400 transition-all duration-300"
           >
             Join the School Today

@@ -73,11 +73,11 @@ export default function FounderHero() {
           <div className="absolute inset-0 bg-blue-500/20 blur-[120px]" />
 
           <Image
-            src="/founder-img.jpeg"
+            src="/founder2-img.jpeg"
             alt="John Godwin"
             width={200}
             height={100}
-            className="relative z-10 rounded-3xl w-full h-80 sm:h-150 object-cover shadow-2xl"
+            className="relative z-10 rounded-full w-full h-80 sm:w-fit md:w-full sm:mx-auto sm:h-100 md:h-150 object-cover shadow-2xl mb-10 md:mb-auto"
           />
         </motion.div>
       </div>

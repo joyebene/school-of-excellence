@@ -5,8 +5,9 @@ import {
   Instagram,
   Facebook,
   Twitter,
+  Phone,
 } from "lucide-react";
-import FloatingShapes from "../FloatingShapes";
+
 
 export default function ConnectFounder() {
   return (
@@ -23,20 +24,25 @@ export default function ConnectFounder() {
 
         <div className="flex justify-center gap-5">
 
-          <a href="#">
-            <Linkedin />
+          <a href="https://www.linkedin.com/in/john-godwin-5a3444243"
+          target="_blank" rel="noopener noreferrer">
+            {<Linkedin />}
           </a>
 
-          <a href="#">
-            <Instagram />
+          <a href="https://www.instagram.com/_johngodwin" target="_blank" rel="noopener noreferrer">
+            {<Instagram />}
           </a>
 
-          <a href="#">
-            <Facebook />
+          <a href="https://www.facebook.com/share/14dydrYTASg/?ref=app_2373072738" target="_blank" rel="noopener noreferrer">
+            {<Facebook />}
           </a>
 
-          <a href="#">
-            <Twitter />
+          <a href="https://x.com/johngodwin1" target="_blank" rel="noopener noreferrer">
+            {<Twitter />}
+          </a>
+
+          <a href="https://wa.me/qr/MSIHJVWZSYQ6J1" target="_blank" rel="noopener noreferrer">
+            {<Phone />}
           </a>
 
         </div>

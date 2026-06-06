@@ -45,10 +45,10 @@ const Footer = () => {
                     <div className="md:col-span-3">
                         <h4 className="text-lg font-semibold mb-4 tracking-wider uppercase">Follow Us</h4>
                         <div className="flex space-x-4">
-                            <Link href="#" className="text-zinc-400 hover:text-white hover:scale-110 transition-all duration-300"><Facebook /></Link>
-                            <Link href="#" className="text-zinc-400 hover:text-white hover:scale-110 transition-all duration-300"><Twitter /></Link>
-                            <Link href="#" className="text-zinc-400 hover:text-white hover:scale-110 transition-all duration-300"><Instagram /></Link>
-                            <Link href="#" className="text-zinc-400 hover:text-white hover:scale-110 transition-all duration-300"><Linkedin /></Link>
+                            <Link href="https://www.facebook.com/profile.php?id=61582191177485" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white hover:scale-110 transition-all duration-300"><Facebook /></Link>
+                            <Link href="https://x.com/AcaExcellence" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white hover:scale-110 transition-all duration-300"><Twitter /></Link>
+                            <Link href="https://www.instagram.com/schoolofexcellence031?igsh=aG05dDBqY3M3M3Zo" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white hover:scale-110 transition-all duration-300"><Instagram /></Link>
+                            <Link href="https://www.linkedin.com/company/infinite-blockchain-hub/" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white hover:scale-110 transition-all duration-300"><Linkedin /></Link>
                         </div>
                     </div>
                 </div>

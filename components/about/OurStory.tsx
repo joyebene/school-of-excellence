@@ -35,7 +35,7 @@ export default function OurStory() {
 
         <div className="relative rounded-3xl overflow-hidden h-100 sm:h-125">
           <Image
-            src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655"
+            src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&auto=format&fit=crop&q=80"
             fill
             className="w-full h-full object-cover"
             alt=""

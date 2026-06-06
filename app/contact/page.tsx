@@ -61,7 +61,7 @@ export default function Contact() {
                     <label className="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
                     <input
                       type="text"
-                      className="w-full px-4 sm:px-5 py-3 sm:py-4 rounded-2xl border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all"
+                      className="w-full px-4 sm:px-5 py-3 sm:py-4 rounded-2xl border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all text-gray-900"
                       placeholder="John Doe"
                       required
                     />
@@ -70,7 +70,7 @@ export default function Contact() {
                     <label className="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
                     <input
                       type="email"
-                      className="w-full px-4 sm:px-5 py-3 sm:py-4 rounded-2xl border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all"
+                      className="w-full px-4 sm:px-5 py-3 sm:py-4 rounded-2xl border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all text-gray-900"
                       placeholder="you@email.com"
                       required
                     />
@@ -81,7 +81,7 @@ export default function Contact() {
                   <label className="block text-sm font-medium text-gray-700 mb-2">Phone Number (Optional)</label>
                   <input
                     type="tel"
-                    className="w-full px-4 sm:px-5 py-3 sm:py-4 rounded-2xl border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all"
+                    className="w-full px-4 sm:px-5 py-3 sm:py-4 rounded-2xl border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all text-gray-900"
                     placeholder="+234 816 741 7955"
                   />
                 </div>
@@ -90,7 +90,7 @@ export default function Contact() {
                   <label className="block text-sm font-medium text-gray-700 mb-2">Message</label>
                   <textarea
                     rows={6}
-                    className="w-full px-4 sm:px-5 py-3 sm:py-4 rounded-3xl border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all resize-y"
+                    className="w-full px-4 sm:px-5 py-3 sm:py-4 rounded-3xl border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all resize-y text-gray-900"
                     placeholder="I'm interested in your programmes and would like more information..."
                     required
                   />

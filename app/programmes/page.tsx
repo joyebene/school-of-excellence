@@ -259,6 +259,140 @@ export default function Programmes() {
         </div>
       </section>
 
+            {/* PAST PROGRAMMES SECTION */}
+      <section className="py-24 bg-white">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-gray-900">Past Programmes</h2>
+            <p className="ax-w-2xl mx-auto sm:text-lg md:text-xl text-gray-900 mb-10">
+              Highlights from our previous impactful sessions and webinars
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Past Program 1 */}
+            <SpotlightCard className="group overflow-hidden">
+              <div className="relative h-80">
+                <Image 
+                  src="/past-prog (1).jpeg" 
+                  alt="Examination Preparation Webinar" 
+                  fill 
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent" />
+                
+                <div className="absolute bottom-0 left-0 p-4 text-white w-full">
+                  <div className="inline-block bg-emerald-500 text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-4">
+                    COMPLETED
+                  </div>
+                  <h3 className="text-2xl font-bold mb-3">Examination Preparation</h3>
+                  <p className="text-white/90 mb-4">Free Online Webinar for Undergraduate Students</p>
+                  
+                  <div className="flex justify-between text-sm">
+                    <div>
+                      <div className="opacity-75">Date</div>
+                      <div>10th April, 2026</div>
+                    </div>
+                    <div>
+                      <div className="opacity-75">Time</div>
+                      <div>7:30 PM (WAT)</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-4 border-t">
+                <div className="space-y-3 text-sm">
+                  <div><span className="font-semibold">Host:</span> John Godwin</div>
+                  <div><span className="font-semibold">Guest Speaker:</span> Onah Emmanuel</div>
+                  <div><span className="font-semibold">Venue:</span> WhatsApp Platform</div>
+                </div>
+              </div>
+            </SpotlightCard>
+
+            {/* Past Program 2 */}
+            <SpotlightCard className="group overflow-hidden">
+              <div className="relative h-80">
+                <Image 
+                  src="/past-prog (2).jpeg" 
+                  alt="Academic Project Writing Webinar" 
+                  fill 
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent" />
+                
+                <div className="absolute bottom-0 left-0 p-4 text-white w-full">
+                  <div className="inline-block bg-emerald-500 text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-4">
+                    COMPLETED
+                  </div>
+                  <h3 className="text-2xl font-bold mb-3">Mastering Academic Project Writing</h3>
+                  <p className="text-white/90 mb-4">Free Online Webinar</p>
+                  
+                  <div className="flex justify-between text-sm">
+                    <div>
+                      <div className="opacity-75">Date</div>
+                      <div>13th March, 2026</div>
+                    </div>
+                    <div>
+                      <div className="opacity-75">Time</div>
+                      <div>7:30 PM (WAT)</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-4 border-t">
+                <div className="space-y-3 text-sm">
+                  <div><span className="font-semibold">Host:</span> John Godwin</div>
+                  <div><span className="font-semibold">Guest Speaker:</span> Matt Breakforth</div>
+                  <div><span className="font-semibold">Venue:</span> Google Meet</div>
+                </div>
+              </div>
+            </SpotlightCard>
+
+            {/* Past Program 3 */}
+            <SpotlightCard className="group overflow-hidden">
+              <div className="relative h-80">
+                <Image 
+                  src="/past-prog (3).jpeg" 
+                  alt="Financial Literacy Webinar" 
+                  fill 
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent" />
+                
+                <div className="absolute bottom-0 left-0 p-4 text-white w-full">
+                  <div className="inline-block bg-emerald-500 text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-4">
+                    COMPLETED
+                  </div>
+                  <h3 className="text-2xl font-bold mb-3">Financial Literacy for Students</h3>
+                  <p className="text-white/90 mb-4">How to Build Sustainable Wealth at a Young Age</p>
+                  
+                  <div className="flex justify-between text-sm">
+                    <div>
+                      <div className="opacity-75">Date</div>
+                      <div>15th & 16th May, 2026</div>
+                    </div>
+                    <div>
+                      <div className="opacity-75">Time</div>
+                      <div>7:30 PM (WAT)</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-4 border-t">
+                <div className="space-y-3 text-sm">
+                  <div><span className="font-semibold">Host:</span> John Godwin</div>
+                  <div><span className="font-semibold">Guest Speakers:</span> Amos Solomon, Matt Breakforth</div>
+                  <div><span className="font-semibold">Venue:</span> WhatsApp Platform</div>
+                </div>
+              </div>
+            </SpotlightCard>
+          </div>
+        </div>
+      </section>
+
       {/* CORE PILLARS */}
       <ParallaxSection bgImage="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
         <div className="py-24 text-white">

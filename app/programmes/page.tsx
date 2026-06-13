@@ -302,7 +302,7 @@ export default function Programmes() {
               </div>
 
               <div className="p-4 border-t">
-                <div className="space-y-3 text-sm">
+                <div className="space-y-3 text-sm text-gray-900">
                   <div><span className="font-semibold">Host:</span> John Godwin</div>
                   <div><span className="font-semibold">Guest Speaker:</span> Onah Emmanuel</div>
                   <div><span className="font-semibold">Venue:</span> WhatsApp Platform</div>
@@ -342,7 +342,7 @@ export default function Programmes() {
               </div>
 
               <div className="p-4 border-t">
-                <div className="space-y-3 text-sm">
+                <div className="space-y-3 text-sm text-gray-900">
                   <div><span className="font-semibold">Host:</span> John Godwin</div>
                   <div><span className="font-semibold">Guest Speaker:</span> Matt Breakforth</div>
                   <div><span className="font-semibold">Venue:</span> Google Meet</div>
@@ -382,7 +382,7 @@ export default function Programmes() {
               </div>
 
               <div className="p-4 border-t">
-                <div className="space-y-3 text-sm">
+                <div className="space-y-3 text-sm text-gray-900">
                   <div><span className="font-semibold">Host:</span> John Godwin</div>
                   <div><span className="font-semibold">Guest Speakers:</span> Amos Solomon, Matt Breakforth</div>
                   <div><span className="font-semibold">Venue:</span> WhatsApp Platform</div>

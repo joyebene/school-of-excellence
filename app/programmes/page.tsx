@@ -166,7 +166,7 @@ export default function Programmes() {
             <div className="flex-1 space-y-8">
               <SpotlightCard>
                 <div className="p-4 md:p-8">
-                  <h3 className="text-2xl md:text-3xl font-semibold mb-8">Event Details</h3>
+                  <h3 className="text-2xl md:text-3xl font-semibold mb-8 text-gray-900">Event Details</h3>
 
                   <div className="space-y-6">
                     <div className="flex gap-4">
@@ -174,7 +174,7 @@ export default function Programmes() {
                         <Users className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600" />
                       </div>
                       <div>
-                        <div className="font-semibold text-lg">Host</div>
+                        <div className="font-semibold text-lg text-gray-900">Host</div>
                         <div className="text-zinc-600">{upcomingProgram.host} — Founder, School of Excellence</div>
                       </div>
                     </div>
@@ -184,7 +184,7 @@ export default function Programmes() {
                         <Award className="w-5 h-5 sm:w-6 sm:h-6  text-amber-600" />
                       </div>
                       <div>
-                        <div className="font-semibold text-lg">Guest Speaker</div>
+                        <div className="font-semibold text-lg text-gray-900">Guest Speaker</div>
                         <div className="text-zinc-600">{upcomingProgram.guest}</div>
                       </div>
                     </div>
@@ -214,7 +214,7 @@ export default function Programmes() {
       <section id="our-programs" className="py-24 bg-zinc-100">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold mb-4">Our Programs</h2>
+            <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-gray-900">Our Programs</h2>
             <p className="max-w-2xl mx-auto sm:text-lg md:text-xl text-gray-900 mb-10">
               At the School of Excellence, our programs are built around three core pillars designed to equip students and young professionals for purpose, innovation, and impact.
             </p>

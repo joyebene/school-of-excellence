@@ -13,6 +13,7 @@ import FloatingShapes from '@/components/FloatingShapes';
 import ParallaxSection from '@/components/ParallaxSection';
 import FloatingLogos from '@/components/FloatingLogos';
 import PillarCard from '@/components/PillerCard';
+import PastProgramCard from '@/components/PastProgram';
 
 export default function Programmes() {
   const { scrollYProgress } = useScroll();
@@ -73,6 +74,42 @@ export default function Programmes() {
         "Teamwork & Collaboration"
       ]
     }
+  ];
+
+  const pastPrograms = [
+    {
+      title: "Examination Preparation",
+      status: "COMPLETED",
+      description: "Free Online Webinar for Undergraduate Students",
+      date: "10th April, 2026",
+      time: "7:30 PM (WAT)",
+      host: "John Godwin",
+      guest: "Onah Emmanuel",
+      venue: "WhatsApp Platform",
+      image: "/past-prog (1).jpeg",
+    },
+    {
+      title: "Mastering Academic Project Writing",
+      status: "COMPLETED",
+      description: "Free Online Webinar",
+      date: "13th March, 2026",
+      time: "7:30 PM (WAT)",
+      host: "John Godwin",
+      guest: "Matt Breakforth",
+      venue: "Google Meet",
+      image: "/past-prog (2).jpeg",
+    },
+    {
+      title: "Financial Literacy for Students",
+      status: "COMPLETED",
+      description: "How to Build Sustainable Wealth at a Young Age",
+      date: "15th & 16th May, 2026",
+      time: "7:30 PM (WAT)",
+      host: "John Godwin",
+      guest: "Amos Solomon, Matt Breakforth",
+      venue: "WhatsApp Platform",
+      image: "/past-prog (3).jpeg",
+    },
   ];
 
   return (
@@ -270,125 +307,9 @@ export default function Programmes() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Past Program 1 */}
-            <SpotlightCard className="group overflow-hidden">
-              <div className="relative h-80">
-                <Image 
-                  src="/past-prog (1).jpeg" 
-                  alt="Examination Preparation Webinar" 
-                  fill 
-                  className="object-cover group-hover:scale-105 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent" />
-                
-                <div className="absolute bottom-0 left-0 p-4 text-white w-full">
-                  <div className="inline-block bg-emerald-500 text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-4">
-                    COMPLETED
-                  </div>
-                  <h3 className="text-2xl font-bold mb-3">Examination Preparation</h3>
-                  <p className="text-white/90 mb-4">Free Online Webinar for Undergraduate Students</p>
-                  
-                  <div className="flex justify-between text-sm">
-                    <div>
-                      <div className="opacity-75">Date</div>
-                      <div>10th April, 2026</div>
-                    </div>
-                    <div>
-                      <div className="opacity-75">Time</div>
-                      <div>7:30 PM (WAT)</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="p-4 border-t">
-                <div className="space-y-3 text-sm text-gray-900">
-                  <div><span className="font-semibold">Host:</span> John Godwin</div>
-                  <div><span className="font-semibold">Guest Speaker:</span> Onah Emmanuel</div>
-                  <div><span className="font-semibold">Venue:</span> WhatsApp Platform</div>
-                </div>
-              </div>
-            </SpotlightCard>
-
-            {/* Past Program 2 */}
-            <SpotlightCard className="group overflow-hidden">
-              <div className="relative h-80">
-                <Image 
-                  src="/past-prog (2).jpeg" 
-                  alt="Academic Project Writing Webinar" 
-                  fill 
-                  className="object-cover group-hover:scale-105 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent" />
-                
-                <div className="absolute bottom-0 left-0 p-4 text-white w-full">
-                  <div className="inline-block bg-emerald-500 text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-4">
-                    COMPLETED
-                  </div>
-                  <h3 className="text-2xl font-bold mb-3">Mastering Academic Project Writing</h3>
-                  <p className="text-white/90 mb-4">Free Online Webinar</p>
-                  
-                  <div className="flex justify-between text-sm">
-                    <div>
-                      <div className="opacity-75">Date</div>
-                      <div>13th March, 2026</div>
-                    </div>
-                    <div>
-                      <div className="opacity-75">Time</div>
-                      <div>7:30 PM (WAT)</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="p-4 border-t">
-                <div className="space-y-3 text-sm text-gray-900">
-                  <div><span className="font-semibold">Host:</span> John Godwin</div>
-                  <div><span className="font-semibold">Guest Speaker:</span> Matt Breakforth</div>
-                  <div><span className="font-semibold">Venue:</span> Google Meet</div>
-                </div>
-              </div>
-            </SpotlightCard>
-
-            {/* Past Program 3 */}
-            <SpotlightCard className="group overflow-hidden">
-              <div className="relative h-80">
-                <Image 
-                  src="/past-prog (3).jpeg" 
-                  alt="Financial Literacy Webinar" 
-                  fill 
-                  className="object-cover group-hover:scale-105 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent" />
-                
-                <div className="absolute bottom-0 left-0 p-4 text-white w-full">
-                  <div className="inline-block bg-emerald-500 text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-4">
-                    COMPLETED
-                  </div>
-                  <h3 className="text-2xl font-bold mb-3">Financial Literacy for Students</h3>
-                  <p className="text-white/90 mb-4">How to Build Sustainable Wealth at a Young Age</p>
-                  
-                  <div className="flex justify-between text-sm">
-                    <div>
-                      <div className="opacity-75">Date</div>
-                      <div>15th & 16th May, 2026</div>
-                    </div>
-                    <div>
-                      <div className="opacity-75">Time</div>
-                      <div>7:30 PM (WAT)</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="p-4 border-t">
-                <div className="space-y-3 text-sm text-gray-900">
-                  <div><span className="font-semibold">Host:</span> John Godwin</div>
-                  <div><span className="font-semibold">Guest Speakers:</span> Amos Solomon, Matt Breakforth</div>
-                  <div><span className="font-semibold">Venue:</span> WhatsApp Platform</div>
-                </div>
-              </div>
-            </SpotlightCard>
+            {pastPrograms.map((program, index) => (
+              <PastProgramCard key={index} program={program} />
+            ))}
           </div>
         </div>
       </section>
